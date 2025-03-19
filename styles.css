@@ -1,0 +1,199 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh; 
+    background-color: white;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column; 
+    min-height: 110vh;
+}
+
+
+header {
+    background-color: #94990077;
+    color: white;
+    padding-bottom: 0em;
+	border-bottom: 2px solid #f2972e;
+}
+
+
+header img { 
+	float: left;
+	margin-right: 50px;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+
+header h2 {
+    font-size: 34px;
+    font-weight: bold;
+    color: #990000;
+	margin-bottom: 0.25em;
+}
+
+header h3 {
+    color: #333;
+    font-style: italic;
+}
+
+.menu nav ul {
+    justify-content: space-around;
+    list-style: none;
+    background: #990000 ;
+    padding: 0;
+    margin: 0;
+}
+
+.menu nav ul li {
+    display:  inline-block;
+    position: relative;
+    
+}
+
+.menu nav ul li a {
+    display: block;
+    padding: 20px 25px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+main {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #f8f8f8;
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 10 auto;
+    gap: 30px;
+}
+
+.container {
+    display: flex;
+    flex: 1; 
+    gap: 20px; 
+}
+
+.main-content{
+    flex: 2;
+    padding: 20px;
+    border-right: 2px solid #f8f8f8;
+}
+
+.mission {
+    margin-bottom: 40px;
+}
+
+.mission blockquote {
+    font-style: italic;
+    margin-top: 20px;
+    color: #555;
+}
+
+
+.speaker-of-the-month{
+    display: flex;
+}
+
+.speaker-of-the-month h1{
+    font-size: 30px;
+    border-bottom:2px solid red;
+    margin-bottom: 10px;
+}
+
+.speaker-of-the-month h2 {
+    font-size: 30px;
+    margin-bottom: 5px;
+    color: #990000;
+}
+
+.speaker-of-the-month img{
+    float: right;
+    width: 200px;
+    height:200px;
+    margin-top:100px;
+}
+
+.ticket-packages {
+    list-style-type: none;
+    margin-top: 15px;
+    border-top: 2px solid #990000;
+}
+
+.ticket-packages h2{
+    color: #990000;
+    font-size: 30px;
+}
+
+.ticket-list{
+    list-style-type: none;
+    color: #333;
+    font-size: 24px;
+}
+
+.khack{
+    flex: 1;
+}
+
+.guest-speaker{
+    margin-bottom: 40px;
+    color: #990000;
+}
+
+article {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.speaker-info {
+    min-width: 150px;
+}
+
+.speaker-info h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #201ac4;
+}
+
+
+.speaker-info a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.speaker-info a:hover {
+    text-decoration: underline;
+}
+
+article img {
+    width: 80px;  
+    height: 80px; 
+}
+
+footer {
+    background-color: #990000;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+    
+}
